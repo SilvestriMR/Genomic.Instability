@@ -1,0 +1,12 @@
+Package: Genomic.Instability
+Type: Package
+Title: Genomic.Instability
+Version: 3.4.3
+Date: 2018-11-20
+Author: Marco Silvestri
+Maintainer: Marco Silvestri <marco.silvestri@istitutotumori.mi.it>
+Depends: R (>= 3.1.0), zoo, plyr, dplyr, data.table, reshape2
+Description: R package for the evaluation of Genomic Instability starting from Copy number alterations data.
+	In particular it computes Large-scale state transitions (LST). LST is defined as the number of 
+	chromosomal breaks between adjacent regions of at least 10 Mb
+License: GPL-2
